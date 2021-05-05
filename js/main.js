@@ -130,6 +130,7 @@
 				)
 					.appendTo($wrapper);
 
+
 				// Change toggle styling once we've scrolled past the header.
 					$header.scrollex({
 						bottom: '5vh',

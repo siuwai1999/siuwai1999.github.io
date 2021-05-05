@@ -109,20 +109,6 @@
   </url>
   
   <url>
-    <loc>https://siuwai1999.github.io/tags/2D/</loc>
-    <lastmod>2021-05-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://siuwai1999.github.io/tags/Live2D/</loc>
-    <lastmod>2021-05-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://siuwai1999.github.io/tags/ASP-NET/</loc>
     <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
@@ -157,6 +143,20 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://siuwai1999.github.io/tags/2D/</loc>
+    <lastmod>2021-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://siuwai1999.github.io/tags/Live2D/</loc>
+    <lastmod>2021-05-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -167,14 +167,14 @@
   </url>
   
   <url>
-    <loc>https://siuwai1999.github.io/categories/2D/</loc>
+    <loc>https://siuwai1999.github.io/categories/%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC/</loc>
     <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://siuwai1999.github.io/categories/%E7%A8%8B%E5%BC%8F%E9%96%8B%E7%99%BC/</loc>
+    <loc>https://siuwai1999.github.io/categories/2D/</loc>
     <lastmod>2021-05-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
