@@ -40,10 +40,22 @@
                 <h1>
                     This is<br>4 0 4
                 </h1>
-                <p>
-                   <a href="http://siuwai1999.github.io/">Back to Home Page<br>SIU WAI &#39;s Website</a>
-                </p>
-
+				<p>
+                   Return to <a href="http://siuwai1999.github.io/"> SIU WAI &#39;s Website </a> <br> in <span id="show"></span> Seconds
+				</p>
             </div>
         </div>
+		
+<script type="text/javascript"> 
+    var t = 10;
+    setInterval("refer()", 1000); 
+    function refer() {
+        if (t == 0){
+            location = "http://siuwai1999.github.io/"; 
+        }
+        document.getElementById('show').innerHTML = "" + t ; 
+        t--; 
+    } 
+</script>
+
 </html>
