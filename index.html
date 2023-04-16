@@ -1,47 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
+
 <head>
-    <meta charset="utf-8">
-    <title>網站已變更</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        /* 將倒數計時器置中 */
-        .countdown-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-    </style>
+	<title>網站已變更</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
-    <div class="container">
-        <h1 class="title">網站已變更</h1>
-        <p class="subtitle">新網址是</p>
-        <a href="https://siuwai.pages.dev/" class="link">https://siuwai.pages.dev/</a>
-        <div class="countdown-container">
-            <div id="countdown" class="countdown"></div>
-        </div>
-    </div>
-
-    <script>
-        // 設定倒數時間 (單位: 秒)
-        var countdownTime = 5;
-
-        // 更新倒數計時器
-        function updateCountdown() {
-            var countdown = document.getElementById('countdown');
-            countdown.innerHTML = '將在 ' + countdownTime + ' 秒後自動跳轉...';
-            countdownTime--;
-            if (countdownTime < 0) {
-                window.location.href = 'https://siuwai.pages.dev/';
-            } else {
-                setTimeout(updateCountdown, 1000);
-            }
-        }
-
-        // 啟動倒數計時器
-        updateCountdown();
-    </script>
+	<div class="vertical-center">
+		<div class="container">
+			<div id="notfound" class="text-center ">
+				<h1>🛠️</h1>
+				<h2>網站已變更</h2>
+				<p>新網址是：</p>
+				<a href="https://siuwai.pages.dev/">SiuWai Portfolio<br>https://siuwai.pages.dev/</a>
+			</div>
+			<div class="countdown-container">
+				<div id="countdown" class="countdown"></div>
+			</div>
+		</div>
+	</div>
 </body>
+<script>
+	// 設定倒數時間 (單位: 秒)
+	var countdownTime = 5;
+
+	// 更新倒數計時器
+	function updateCountdown() {
+		var countdown = document.getElementById('countdown');
+		countdown.innerHTML = '將在 ' + countdownTime + ' 秒後自動跳轉...';
+		countdownTime--;
+		if (countdownTime < 0) {
+			window.location.href = 'https://siuwai.pages.dev/';
+		} else {
+			setTimeout(updateCountdown, 1000);
+		}
+	}
+
+	// 啟動倒數計時器
+	updateCountdown();
+</script>
 </html>
