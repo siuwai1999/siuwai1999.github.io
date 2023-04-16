@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>網站已變更</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 將倒數計時器置中 */
+        .countdown-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">網站已變更</h1>
+        <p class="subtitle">新網址是</p>
+        <a href="https://siuwai.pages.dev/" class="link">https://siuwai.pages.dev/</a>
+        <div class="countdown-container">
+            <div id="countdown" class="countdown"></div>
+        </div>
+    </div>
+
+    <script>
+        // 設定倒數時間 (單位: 秒)
+        var countdownTime = 5;
+
+        // 更新倒數計時器
+        function updateCountdown() {
+            var countdown = document.getElementById('countdown');
+            countdown.innerHTML = '將在 ' + countdownTime + ' 秒後自動跳轉...';
+            countdownTime--;
+            if (countdownTime < 0) {
+                window.location.href = 'https://siuwai.pages.dev/';
+            } else {
+                setTimeout(updateCountdown, 1000);
+            }
+        }
+
+        // 啟動倒數計時器
+        updateCountdown();
+    </script>
+</body>
+</html>

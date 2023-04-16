@@ -1,0 +1,29 @@
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.link {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.countdown {
+    font-size: 36px;
+    color: #777;
+    margin-top: 20px;
+}
